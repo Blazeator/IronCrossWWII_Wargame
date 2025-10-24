@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="477a-4984-366b-c7c1" name="British-Canadian ORBAT 1944-45" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="da09-bbe5-845b-1677" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+  <selectionEntries>
+    <selectionEntry id="f32e-97cd-af87-a2f3" name="Churchill VI" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="aa71-b484-dbac-0c45" name="Churchill VI" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">16/13</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">8</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="93e8-068b-c07b-b917" name="Heavy" hidden="false" targetId="8492-5fac-8cda-60bc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2ce6-56f9-4123-7414" name="Heavy Vehicle" hidden="false" targetId="ab3f-033c-d6fa-9324" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="71"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="9"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="39b2-e745-728c-3511" name="Churchill VII" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3c39-faf8-66a8-576d" name="Churchill VII" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">19/16</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">8</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b617-7c6c-3e68-0443" name="Heavy" hidden="false" targetId="8492-5fac-8cda-60bc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="570e-48fc-c4fa-b869" name="Heavy Vehicle" hidden="false" targetId="ab3f-033c-d6fa-9324" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="96"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="12"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="594f-7129-2da0-5a30" name="Churchill Crocodile" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f5b7-93c9-e06e-460a" name="Churchill Crocodile" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">19/15</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">8 - n/a</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b795-5ad6-4cfc-4960" name="Heavy" hidden="false" targetId="8492-5fac-8cda-60bc" type="rule"/>
+        <infoLink id="5ef6-203a-8d19-b402" name="Flamethrower" hidden="false" targetId="0afc-0162-ad4e-9d93" type="rule"/>
+        <infoLink id="b159-e213-3749-2224" name="Rare" hidden="false" targetId="fac2-abf4-df6f-5e6d" type="rule"/>
+        <infoLink id="f8ce-da12-7d09-dc6a" name="Churchill Crocodile" hidden="false" targetId="ff2e-86aa-5f98-3b02" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d112-a1bd-01c4-67be" name="Heavy Vehicle" hidden="false" targetId="ab3f-033c-d6fa-9324" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="103"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="13"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="42e5-f136-dffe-3560" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="11aa-2825-6af6-5100" name="Sherman 75 mm" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9983-22dc-ce26-909d" name="Sherman 75 mm" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">13/11</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">8</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="efeb-f797-966d-c718" name="Medium Vehicle" hidden="false" targetId="8777-899e-9fb6-0a26" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="45"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d60d-75eb-4293-416d" name="Sherman 76 mm" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="65cd-d945-9ace-63a5" name="Sherman 76 mm" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">15/11</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">9</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fb85-b5d8-af5c-2ae0" name="Medium Vehicle" hidden="false" targetId="8777-899e-9fb6-0a26" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="60"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="8"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1e97-0992-1b9d-5f9c" name="Sherman Firefly" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fd05-96c5-8efd-7729" name="Sherman Firefly" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">13/11</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">10</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7070-0476-191e-85be" name="Medium Vehicle" hidden="false" targetId="8777-899e-9fb6-0a26" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="64"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="8"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7033-1388-faa6-3392" name="Cromwell IV" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="754b-f565-704a-8076" name="Cromwell IV" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">14/11</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">8</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8f9e-f8c4-d7b4-a1d5" name="Medium Vehicle" hidden="false" targetId="8777-899e-9fb6-0a26" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="49"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="7"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8392-7c1c-685b-76d0" name="Centaur Mk IV" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9de7-35c2-561c-1594" name="Centaur Mk IV" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">14/11</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">5</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5d8f-87e5-f835-a7c3" name="Howitzer" hidden="false" targetId="403c-8a64-d72f-ce3e" type="rule"/>
+        <infoLink id="bc54-bef8-c0f5-b1ef" name="Rare" hidden="false" targetId="fac2-abf4-df6f-5e6d" type="rule"/>
+        <infoLink name="Heavy" id="f216-678a-08e7-a6a6" hidden="false" type="rule" targetId="8492-5fac-8cda-60bc"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7c87-6551-9800-8994" name="Medium Vehicle" hidden="false" targetId="8777-899e-9fb6-0a26" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="44"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="6"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="35c9-7b0c-3cba-dddf" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="349a-6a01-c213-ba93" name="A34 Comet" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1cb6-a849-93ba-b7bc" name="A34 Comet" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">15/12</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">10</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5c44-ca80-2358-cc8f" name="Rare" hidden="false" targetId="fac2-abf4-df6f-5e6d" type="rule"/>
+        <infoLink id="b326-0413-5b1d-6c89" name="1945 solo" hidden="false" targetId="dba8-9de3-de12-6b44" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ea53-7984-a96d-3040" name="Medium Vehicle" hidden="false" targetId="8777-899e-9fb6-0a26" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="73"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="10"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e5e2-3692-2d35-1596" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="a1b5-d16d-9652-e5f8" name="M5 Stuart" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d573-f1b2-8663-a10f" name="M5 Stuart" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">12/9</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">6</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d686-90ff-df0d-6187" name="Light Vehicle" hidden="false" targetId="007f-c2e9-b93b-04ea" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="31"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5927-5c88-03b5-dd33" name="Humber Mk IV" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1a07-b0e7-eb76-906b" name="Humber Mk IV" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">9</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">6</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7032-62b1-7341-ef53" name="Scout Car" hidden="false" targetId="3cba-bf29-3c65-78a5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b2e9-46c8-7e9d-7f0e" name="Light Vehicle (Wheeled)" hidden="false" targetId="5f98-474b-062e-70e3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="20"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="851c-822d-21fe-7571" name="Staghound Mk I" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2f59-2ed6-6e85-2b94" name="Staghound Mk I" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">11/9</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">6</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="974e-e59e-563c-f9f3" name="Scout Car" hidden="false" targetId="3cba-bf29-3c65-78a5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ee16-3c35-9e89-0ad4" name="Light Vehicle (Wheeled)" hidden="false" targetId="5f98-474b-062e-70e3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="22"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a9cc-fa5b-39f5-17d5" name="Staghound Mk II" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f55e-c071-6220-5481" name="Staghound Mk II" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">11/9</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">4</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4fdf-e983-a85a-b33b" name="Scout Car" hidden="false" targetId="3cba-bf29-3c65-78a5" type="rule"/>
+        <infoLink id="8527-334b-4f3e-0cd5" name="Rare" hidden="false" targetId="fac2-abf4-df6f-5e6d" type="rule"/>
+        <infoLink id="123f-7f49-25fe-f39e" name="Infantry Gun" hidden="false" targetId="8ba2-f5d7-0491-4722" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ae3d-666b-46b3-7643" name="Light Vehicle (Wheeled)" hidden="false" targetId="5f98-474b-062e-70e3" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="23"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="3"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f27f-7528-82fa-b185" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="8019-4f13-7c7d-b815" name="Destacamento de Infanteria" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0f44-cc04-3a6a-d2df" name="Destacamento de Infanteria" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">n/a</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">3</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">5</characteristic>
+          </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="PIAT" field="annotation"/>
+                <modifier type="set" value="7" field="1f7c-5fe5-1bf7-9748"/>
+              </modifiers>
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="8019-4f13-7c7d-b815" childId="c811-cd4d-3923-8646" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4f90-e132-4447-794c" name="Infantry Detachment" hidden="false" targetId="2e14-d886-a525-3e2c" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="25"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="4"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Transporte" hidden="false" id="b899-9a50-d478-db46" type="selectionEntryGroup" targetId="aa4a-314c-6dc8-6323"/>
+        <entryLink import="true" name="Armas Anticarro" hidden="false" id="072d-862a-9d1d-fe31" type="selectionEntryGroup" targetId="0e27-69d1-f28c-fb3c"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="9a38-6fa7-384f-dce1" name="Equipo Lanzallamas" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7396-995a-37ec-f06d" name="Equipo Lanzallamas" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">n/a</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">n/a</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a15a-93c2-9f70-777c" name="Flamethrower" hidden="false" targetId="0afc-0162-ad4e-9d93" type="rule"/>
+        <infoLink id="00af-d098-155a-29ab" name="Heavy" hidden="false" targetId="8492-5fac-8cda-60bc" type="rule"/>
+        <infoLink id="1216-d424-95c6-b9de" name="Rare" hidden="false" targetId="fac2-abf4-df6f-5e6d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="48bf-4595-c8fa-267f" name="Support Squad (Infantry)" hidden="false" targetId="0f65-08fd-91d5-7786" primary="true"/>
+        <categoryLink targetId="bf93-7e72-395f-1f01" id="7a09-f684-2e95-f532" primary="false" name="Support Squad"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="30"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="4"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0182-1e14-a123-9ad1" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="90fe-a984-ae1a-a288" name="6 pdr Anti-Tank" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1136-c669-61aa-f69b" name="6 pdr Anti-Tank" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">n/a</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">9</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cff9-24a2-b6af-58d4" name="Anti-Tank Gun" hidden="false" targetId="7d3c-00b8-1955-b588" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d03c-a90e-813d-7318" name="Support Squad (Anti-Tank or Infantry Gun)" hidden="false" targetId="d7c9-78a5-85b3-8cd7" primary="true"/>
+        <categoryLink id="d6c2-dc18-ea80-3c61" name="Support Squad (Anti-Tank or Infantry Gun)" hidden="false" targetId="d7c9-78a5-85b3-8cd7" primary="false"/>
+        <categoryLink targetId="bf93-7e72-395f-1f01" id="7ffc-f968-9872-63f6" primary="false" name="Support Squad"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="30"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="4"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Transporte" hidden="false" id="93bb-867e-3315-c78b" type="selectionEntryGroup" targetId="aa4a-314c-6dc8-6323"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="d9fa-0c12-07a7-61e9" name="17 pdr Anti-Tank" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0bd5-76a9-b7ac-517a" name="17 pdr Anti-Tank" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">n/a</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">10</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5436-c7d4-ac43-14cc" name="Anti-Tank Gun" hidden="false" targetId="7d3c-00b8-1955-b588" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="25c9-9527-d152-7072" name="Support Squad (Anti-Tank or Infantry Gun)" hidden="false" targetId="d7c9-78a5-85b3-8cd7" primary="true"/>
+        <categoryLink targetId="bf93-7e72-395f-1f01" id="828b-9411-30d5-44b1" primary="false" name="Support Squad"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="49"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="7"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Transporte" hidden="false" id="bb96-71e8-f286-2068" type="selectionEntryGroup" targetId="aa4a-314c-6dc8-6323"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="efa1-9168-da44-3772" name="Equipo MG" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a756-c35c-6b34-b5ea" name="Equipo MG" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">n/a</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">0</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1f5a-044d-d8fb-eca2" name="MG Team" hidden="false" targetId="8950-7658-0583-4163" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6162-1fb3-7cab-e334" name="Support Squad (Infantry)" hidden="false" targetId="0f65-08fd-91d5-7786" primary="true"/>
+        <categoryLink targetId="bf93-7e72-395f-1f01" id="e9b2-ec66-b2d5-cff4" primary="false" name="Support Squad"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="20"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="3"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Transporte" hidden="false" id="bd1a-af21-9831-eec3" type="selectionEntryGroup" targetId="aa4a-314c-6dc8-6323"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="3269-fd57-192a-efb1" name="Equipo Mortero" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1e1b-93cc-9f09-58c1" name="Equipo Mortero" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">n/a</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">0</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="46b3-2f74-dc1f-20d1" name="Mortar Team" hidden="false" targetId="4a0b-47d6-852f-f1be" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ba26-5d0c-aac5-7731" name="Support Squad (Infantry)" hidden="false" targetId="0f65-08fd-91d5-7786" primary="true"/>
+        <categoryLink targetId="bf93-7e72-395f-1f01" id="b8be-914f-781b-a4d2" primary="false" name="Support Squad"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="25"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="4"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Transporte" hidden="false" id="0f3b-fb8e-246b-2328" type="selectionEntryGroup" targetId="aa4a-314c-6dc8-6323"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="7d62-a5cc-224c-d086" name="Equipo Francotirador" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8374-03d2-a4ee-31b4" name="Equipo Francotirador" hidden="false" typeId="0706-f1e0-1190-d1b0" typeName="Unidad">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">n/a</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">n/a</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8021-b97f-09cf-6d1a" name="Sniper Team" hidden="false" targetId="dc25-19ea-fb53-4e5b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a75a-a6f2-d286-f672" name="Support Squad (Infantry)" hidden="false" targetId="0f65-08fd-91d5-7786" primary="true"/>
+        <categoryLink targetId="bf93-7e72-395f-1f01" id="82be-ad02-d9d9-15d5" primary="false" name="Support Squad"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="18"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="3"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="32a6-b153-fe09-fd51" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Churchill AVRE (Casero)" hidden="false" id="cc1b-104e-a1bc-318a">
+      <profiles>
+        <profile name="Churchill AVRE (Casero)" typeId="0706-f1e0-1190-d1b0" typeName="Unidad" hidden="false" id="06de-ff63-a762-f2cd">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">16/13</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">5</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy" id="663f-9a6f-8471-4739" hidden="false" type="rule" targetId="8492-5fac-8cda-60bc"/>
+        <infoLink name="Rare" id="2a30-bc52-db1c-5960" hidden="false" type="rule" targetId="fac2-abf4-df6f-5e6d"/>
+        <infoLink name="Petard" id="378a-3b0f-e569-fe1e" hidden="false" type="rule" targetId="2dca-8c20-e454-6f45"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="ab3f-033c-d6fa-9324" id="d010-7db8-4410-fa24" primary="true" name="Heavy Vehicle"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="636b-3b0f-fd5e-8a8d" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="55"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="6"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule id="ff2e-86aa-5f98-3b02" name="Churchill Crocodile" hidden="false">
+      <description>Puede usar bien su lanzallamas o bien un cañon de valor 8</description>
+    </rule>
+    <rule id="dba8-9de3-de12-6b44" name="1945 solo" hidden="false"/>
+    <rule name="Petard" id="2dca-8c20-e454-6f45" hidden="false">
+      <description>Alcance limitado a 12&quot; (30cm)
+Convierten impactos exitosos en marcadores de moral a 2+, en lugar de 4+
+Contra vehículos tienen bonificador de +1 en la tirada para penetrar blindaje.
+Cuentan como unidad HEAVY e ignoran cobertura contra objetivos en edificios, búnkeres y trincheras</description>
+    </rule>
+  </sharedRules>
+  <forceEntries>
+    <forceEntry name="British/Canadian ORBAT 1944/45" id="71e4-a7fb-1f0c-ef25" hidden="false" publicationId="56be-5d92-ab93-0053">
+      <categoryLinks>
+        <categoryLink name="Infantry Detachment" hidden="false" id="0e04-a0a5-a302-6d50" targetId="2e14-d886-a525-3e2c" primary="false"/>
+        <categoryLink name="Support Squad (Infantry)" hidden="false" id="a285-7381-5132-9535" targetId="0f65-08fd-91d5-7786" primary="false"/>
+        <categoryLink name="Support Squad (Anti-Tank or Infantry Gun)" hidden="false" id="a756-f78f-51df-c582" targetId="d7c9-78a5-85b3-8cd7" primary="false"/>
+        <categoryLink name="Light Vehicle (Wheeled)" hidden="false" id="d7b9-fea0-c070-5fc0" targetId="5f98-474b-062e-70e3" primary="false"/>
+        <categoryLink name="Light Vehicle (Halftracks)" hidden="false" id="12db-e6f0-a1bb-9e17" targetId="3ec7-57b5-9773-e991" primary="false"/>
+        <categoryLink name="Light Vehicle" hidden="false" id="ac11-b6f4-ef09-8098" targetId="007f-c2e9-b93b-04ea" primary="false"/>
+        <categoryLink name="Medium Vehicle" hidden="false" id="8fc8-57a4-2c05-d1c8" targetId="8777-899e-9fb6-0a26" primary="false"/>
+        <categoryLink name="Heavy Vehicle" hidden="false" id="d3a6-cccb-3a10-ccf2" targetId="ab3f-033c-d6fa-9324" primary="false"/>
+        <categoryLink name="Support Squad" hidden="false" id="55a7-d1c3-7bcb-cb09" targetId="bf93-7e72-395f-1f01"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Mortero 2&quot;" id="6531-a241-5eca-0d38" hidden="false">
+          <description>La unidad de mando británica cuenta con un mortero de 2&quot;. Opera igual que el Equipo de Mortero, pero convierte marcadores de moral a 5+.</description>
+        </rule>
+      </rules>
+    </forceEntry>
+  </forceEntries>
+  <publications>
+    <publication name="British/Canadian ORBAT 1944/45" id="aa72-cad4-12db-a0f3" hidden="false"/>
+  </publications>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Transporte" id="aa4a-314c-6dc8-6323" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8709-235c-d3e6-7f0a"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Bren Carrier" hidden="false" id="e76f-2742-ec54-e4d0" type="selectionEntry" targetId="3c3b-7e76-f32f-a67a"/>
+        <entryLink import="true" name="Camión" hidden="false" id="696c-d706-12dc-3a29" type="selectionEntry" targetId="7e65-3e8e-3096-fe18"/>
+        <entryLink import="true" name="Jeep" hidden="false" id="3e70-dfe8-dc29-9d55" type="selectionEntry" targetId="4626-7c4c-4b97-7416"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Armas Anticarro" id="0e27-69d1-f28c-fb3c" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="PIAT" hidden="false" id="c811-cd4d-3923-8646" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de2e-c1bc-4e16-be40" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="fbbb-42e5-4644-8ee1" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="5"/>
+            <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="0"/>
+          </costs>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Maximo la mitad de Inf. Detach con PIAT</comment>
+              <modifiers>
+                <modifier type="set" value="1" field="fbbb-42e5-4644-8ee1">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                        <condition type="atMost" value="2" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="2" field="fbbb-42e5-4644-8ee1">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="3" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                        <condition type="atMost" value="4" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="3" field="fbbb-42e5-4644-8ee1">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="5" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                        <condition type="atMost" value="6" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="4" field="fbbb-42e5-4644-8ee1">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="7" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                        <condition type="atMost" value="8" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="5" field="fbbb-42e5-4644-8ee1">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="9" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                        <condition type="atMost" value="10" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="6" field="fbbb-42e5-4644-8ee1">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="11" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                        <condition type="atMost" value="12" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="7" field="fbbb-42e5-4644-8ee1">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="14" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                        <condition type="atMost" value="15" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="8" field="fbbb-42e5-4644-8ee1">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="16" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                        <condition type="atMost" value="17" field="selections" scope="force" childId="8019-4f13-7c7d-b815" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
