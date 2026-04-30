@@ -23,75 +23,15 @@
           <modifierGroups>
             <modifierGroup type="and">
               <modifiers>
-                <modifier type="set" value="2" field="ecfc-8c3a-279d-513d">
+                <modifier type="set" value="1" field="ecfc-8c3a-279d-513d">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" value="3" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="2" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="4" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="3" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="5" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="4" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="6" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="5" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="7" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="6" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="8" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="7" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="9" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="8" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="10" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="9" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="11" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="10" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="12" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="11" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="13" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="12" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="14" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="13" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="15" field="ecfc-8c3a-279d-513d">
-                  <conditions>
-                    <condition type="atLeast" value="14" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                <modifier type="increment" value="1" field="ecfc-8c3a-279d-513d">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="49bc-15f4-dbc5-6aab" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
                 </modifier>
               </modifiers>
               <comment>Suma de Infanteria y Support mayor que suma de Heavys y Medium Vehicles</comment>
@@ -712,7 +652,7 @@
       <entryLinks>
         <entryLink import="true" name="Camión" hidden="false" id="4971-5963-f007-a153" type="selectionEntry" targetId="7e65-3e8e-3096-fe18"/>
         <entryLink import="true" name="Jeep" hidden="false" id="e164-d545-bd33-9630" type="selectionEntry" targetId="4626-7c4c-4b97-7416"/>
-        <entryLink import="true" name="M5 Semioruga (.50 cal)" hidden="false" id="fe56-d9e1-6012-e8e8" type="selectionEntry" targetId="07b1-524e-dc80-ca85"/>
+        <entryLink import="true" name="M5 Semioruga" hidden="false" id="fe56-d9e1-6012-e8e8" type="selectionEntry" targetId="07b1-524e-dc80-ca85"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

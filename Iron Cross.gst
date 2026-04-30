@@ -142,112 +142,39 @@
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set" value="2" field="61f2-8534-703c-30b2">
+            <modifier type="set" value="1" field="61f2-8534-703c-30b2">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="3" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="2" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
+            <modifier type="increment" value="1" field="61f2-8534-703c-30b2">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
             </modifier>
-            <modifier type="set" value="4" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="3" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="5" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="4" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="6" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="5" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="7" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="6" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="8" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="7" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="9" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="8" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="10" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="9" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="11" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="10" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="12" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="11" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="13" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="12" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="14" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="13" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="15" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="14" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="16" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="15" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="17" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="16" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="18" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="17" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="19" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="18" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="20" field="61f2-8534-703c-30b2">
-              <conditions>
-                <condition type="atLeast" value="19" field="selections" scope="force" childId="bf93-7e72-395f-1f01" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="0" field="61f2-8534-703c-30b2">
+            <modifier type="ceil" value="0" field="61f2-8534-703c-30b2">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="abfd-12bf-5e23-88aa" shared="true" includeChildSelections="true"/>
               </conditions>
               <comment>Excepcion Para German ORBAT North Africa</comment>
             </modifier>
-            <modifier type="set" value="0" field="61f2-8534-703c-30b2">
+            <modifier type="ceil" value="0" field="61f2-8534-703c-30b2">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="f0bb-68e8-30ec-b96a" shared="true" includeChildSelections="true"/>
               </conditions>
               <comment>Excepcion Para Italian ORBAT North Africa</comment>
+            </modifier>
+            <modifier type="ceil" value="0" field="61f2-8534-703c-30b2">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="5f7d-f41c-e69c-7305" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Excepcion Para German ORBAT 1940</comment>
+            </modifier>
+            <modifier type="ceil" value="0" field="61f2-8534-703c-30b2">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="2aac-2eb0-617b-490c" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <comment>Excepcion Para France ORBAT 1940</comment>
             </modifier>
           </modifiers>
           <comment>Infantry Detachment superior a Support Squads</comment>
@@ -258,38 +185,51 @@
     <categoryEntry name="Vehicles" id="f182-3795-a033-9d31" hidden="false"/>
     <categoryEntry name="Medium &amp; Heavy Vehicles" id="49bc-15f4-dbc5-6aab" hidden="false"/>
     <categoryEntry name="Infantry Detachment, MG Team, Mortar Team &amp; Anti-Tank Gun" id="c81d-b5d9-2124-a9b5" hidden="false"/>
+    <categoryEntry name="Bicycle Infantry" id="5ad5-a6ed-dd06-ba81" hidden="false">
+      <profiles>
+        <profile name="Bicycle Infantry" typeId="cfa3-b64b-560c-427d" typeName="Movimiento" hidden="false" id="d31f-3c70-4778-e9de">
+          <characteristics>
+            <characteristic name="Normal" typeId="2464-b5e0-ea2d-dad0">6&quot; (12 cm)</characteristic>
+            <characteristic name="Rapido" typeId="6518-ccc5-6073-1db4">12&quot; (25 cm)</characteristic>
+            <characteristic name="Carretera" typeId="b5c6-3d0b-c58e-de83">15&quot; (30 cm)</characteristic>
+            <characteristic name="Dificil" typeId="d1d9-77da-7684-385e">6</characteristic>
+            <characteristic name="Muy Dificil" typeId="4e71-8f4d-ab6c-74f2">IMPASABLE</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </categoryEntry>
   </categoryEntries>
   <sharedRules>
     <rule id="8492-5fac-8cda-60bc" name="Heavy" publicationId="56be-5d92-ab93-0053" hidden="false">
       <description>Los vehículos Heavy tienen un penalizador de -1 en cada tirada de reactivación.</description>
     </rule>
     <rule id="403c-8a64-d72f-ce3e" name="Howitzer" publicationId="56be-5d92-ab93-0053" hidden="false">
-      <description>Convierten impactos exitosos en marcadores de moral a 3+, en lugar de 4+
-Contra vehiculos tienen bonificador de +1 en la tirada para penetrar blindaje.
-Cuentan como unidad Heavy e ignoran cobertura contra objetivos en edificios.</description>
+      <description>Convierten impactos exitosos en Marcadores de Moral a 3+ en lugar de 4+
+Contra vehículos, tienen bonificador de +1 en la tirada para penetrar blindaje.
+Cuentan como unidad Heavy e ignoran cobertura contra objetivos en cualquier tipo de edificio.</description>
     </rule>
     <rule id="fac2-abf4-df6f-5e6d" name="Rare" publicationId="56be-5d92-ab93-0053" hidden="false">
       <description>Solo se permite una unidad de este tipo en cada fuerza.</description>
     </rule>
     <rule id="8950-7658-0583-4163" name="MG Team" publicationId="56be-5d92-ab93-0053" hidden="false">
-      <description>Usan 2d10 contra infantería a cualquier distancia en estacionario. Cada impacto genera un marcador de moral, pudiendo convertir uno más.
+      <description>Usan 2d10 contra infantería a cualquier distancia si están estacionarios. Cada impacto exitoso genera un Marcador de Moral, pudiendo convertir uno más.
 En la tirada para daños por penetración a vehículos, divide entre dos el resultado del d6.</description>
     </rule>
     <rule id="4a0b-47d6-852f-f1be" name="Mortar Team" publicationId="56be-5d92-ab93-0053" hidden="false">
-      <description>Únicamente disparan en estacionario, directa o indirectamente y si algún aliado tiene Línea de Visión sobre el objetivo.
+      <description>Únicamente disparan en estacionario, directa o indirectamente y si él o algún aliado tiene Línea de Visión sobre el objetivo.
 Alcance mínimo de 12&quot; (30 cm).
 Ignoran cobertura, excepto búnkeres y trincheras.
-Cada impacto genera un marcador de moral, pudiendo convertir uno más.
+Cada impacto exitoso genera un Marcador de Moral, pudiendo convertir uno más.
 En la tirada para daños por penetración a vehículos, divide entre dos el resultado del d6.
 El primer disparo requiere un 8+ para impactar, pero cada intento siguiente en el mismo turno bonifica con +1 en un área de 4&quot; (10 cm).</description>
     </rule>
     <rule id="dc25-19ea-fb53-4e5b" name="Sniper Team" publicationId="56be-5d92-ab93-0053" hidden="false">
       <description>Reglas especiales de despliegue.
-Solo disparan a infantería o vehículos descubiertos. Bonifican +2 para impactar, pero solo disparan en estacionario.
-Reaccionan a 2+ (Reglas de la casa)</description>
+Solo disparan a infantería o vehículos descubiertos. Bonificación de +2 para impactar. Solo disparan en estacionario.
+Reaccionan a 2+ (Reglas de la casa).</description>
     </rule>
     <rule id="3cba-bf29-3c65-78a5" name="Scout Car" hidden="false">
-      <description>Reaccionan a 2+. Se ignoran contadores de moral para esta acción.</description>
+      <description>Reaccionan a 2+. Se ignoran Marcadores de Moral para esta acción.</description>
     </rule>
     <rule id="8ba2-f5d7-0491-4722" name="Infantry Gun" hidden="false">
       <description>Si tienen escudo, están a cubierto contra infantería.
@@ -298,7 +238,7 @@ Solo usan 2d10 contra infantería a menos de 12&quot; (30 cm) si están estacion
     </rule>
     <rule id="3ab9-d411-99ad-b95b" name="Transporte" hidden="false">
       <description>No generan Token de Mando y se consideran parte de la unidad que transportan.
-Pueden llevar una unidad, excepto los camiones que llevan dos.
+Pueden llevar una unidad, excepto los camiones que pueden llevar dos unidades de infantería.
 Requieren activarse para moverse, excepto si se activa su unidad de infantería (desmontada), en cuyo caso deben moverse hacia ella.</description>
     </rule>
     <rule id="7d3c-00b8-1955-b588" name="Anti-Tank Gun" hidden="false">
@@ -328,7 +268,7 @@ Penalizador de -1 para impactar a mas de 12&quot; (30 cm).</description>
       <description>Tirar 1d6 por cada Token de Mando generado por unidades Élite: Cada resultado de 6 genera un Token de Mando adicional.
 Cuando se hace un Test de Moral, con un resultado de 5 se retiran dos marcadores de moral.</description>
     </rule>
-    <rule name="Inmobile" id="62ce-56ad-0db5-5e38" hidden="false">
+    <rule name="Immobile" id="62ce-56ad-0db5-5e38" hidden="false">
       <description>Solo pueden moverse con un Transporte.</description>
     </rule>
     <rule name="Engineers" id="29f2-4c00-a3d4-9b2c" hidden="false">
@@ -341,11 +281,11 @@ Cuando se hace un Test de Moral, con un resultado de 5 se retiran dos marcadores
       <description>Alcance limitado a 4&quot; (10 cm).</description>
     </rule>
     <rule name="Autocannon" id="db43-9240-3c59-aed4" hidden="false">
-      <description>Convierte impactos en marcadores de moral a 3+ en lugar de 4+.
+      <description>Convierte impactos en Marcadores de Moral a 3+ en lugar de 4+.
 Solo usan 2d10 contra infantería a menos de 12&quot; (30 cm) si están estacionarios.</description>
     </rule>
     <rule name="Unmotivated" id="f482-c0fc-0f19-0f9f" hidden="false">
-      <description>Penalización de -1 en la tirada de reactivación.</description>
+      <description>Penalización de -1 en la tirada de Reactivación.</description>
     </rule>
     <rule name="Weak Firepower" id="84a9-50e7-16d9-1c66" hidden="false">
       <description>No recibe bonificador de +1 para impactar a menos de 12&quot; (30 cm).</description>
@@ -357,7 +297,7 @@ Solo usan 2d10 contra infantería a menos de 12&quot; (30 cm) si están estacion
       <description>Penalización de -1 en las tiradas de reacción que supongan un movimiento de Fall Back o que impliquen alejarse de tropas enemigas.</description>
     </rule>
     <rule name="Light Infantry" id="5a6b-01e8-aacd-5d89" hidden="false">
-      <description>Reaccionan con resultado de 2+. Se ignoran los marcadores de moral.</description>
+      <description>Reaccionan con resultado de 2+. Se ignoran los Marcadores de Moral.</description>
     </rule>
     <rule name="Body Armour" id="f40a-3d39-d8bd-92c3" hidden="false">
       <description>Infantería con esta regla siempre esta a cubierto de otra Infantería, Francotiradores y Equipos MG.</description>
@@ -372,7 +312,7 @@ Solo usan 2d10 contra infantería a menos de 12&quot; (30 cm) si están estacion
       <description>Un Destacamento Aerotransportado puede usar la habiliad de mando para repetir tiradas de activacion o reaccion a cualquier rango.</description>
     </rule>
     <rule name="Red Devils" id="fd68-5621-f436-2fbf" hidden="false">
-      <description>Cuando esta unidad se reactiva a 6&quot; (15 cm) de unidades enemigas, ignora la penalizacion de sus marcadores de moral tanto para reactivarse como para impactar.</description>
+      <description>Cuando esta unidad se reactiva a 6&quot; (15 cm) de unidades enemigas, ignora la penalización de sus Marcadores de Moral tanto para reactivarse como para impactar.</description>
     </rule>
     <rule name="Nuts!" id="d466-35ea-fd05-d926" hidden="false">
       <description>Cuando una unidad con esta regla es atacada y reacciona con un Test de Moral, esta tiene éxito a 2+ en lugar de a 3+.</description>

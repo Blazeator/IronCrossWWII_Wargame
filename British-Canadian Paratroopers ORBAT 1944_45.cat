@@ -450,100 +450,15 @@
           <modifierGroups>
             <modifierGroup type="and">
               <modifiers>
-                <modifier type="set" value="2" field="3bf9-44e6-b7d4-96e9">
+                <modifier type="set" value="1" field="3bf9-44e6-b7d4-96e9">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" value="3" field="3bf9-44e6-b7d4-96e9">
-                  <conditions>
-                    <condition type="atLeast" value="2" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="4" field="3bf9-44e6-b7d4-96e9">
-                  <conditions>
-                    <condition type="atLeast" value="3" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="5" field="3bf9-44e6-b7d4-96e9">
-                  <conditions>
-                    <condition type="atLeast" value="4" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="6" field="3bf9-44e6-b7d4-96e9">
-                  <conditions>
-                    <condition type="atLeast" value="5" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="7" field="3bf9-44e6-b7d4-96e9">
-                  <conditions>
-                    <condition type="atLeast" value="6" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="8" field="3bf9-44e6-b7d4-96e9">
-                  <conditions>
-                    <condition type="atLeast" value="7" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="9" field="3bf9-44e6-b7d4-96e9">
-                  <conditions>
-                    <condition type="atLeast" value="8" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="10" field="3bf9-44e6-b7d4-96e9">
-                  <conditions>
-                    <condition type="atLeast" value="9" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="11" field="61f2-8534-703c-30b2">
-                  <conditions>
-                    <condition type="atLeast" value="10" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="12" field="61f2-8534-703c-30b2">
-                  <conditions>
-                    <condition type="atLeast" value="11" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="13" field="61f2-8534-703c-30b2">
-                  <conditions>
-                    <condition type="atLeast" value="12" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="14" field="61f2-8534-703c-30b2">
-                  <conditions>
-                    <condition type="atLeast" value="13" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="15" field="61f2-8534-703c-30b2">
-                  <conditions>
-                    <condition type="atLeast" value="14" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="16" field="61f2-8534-703c-30b2">
-                  <conditions>
-                    <condition type="atLeast" value="15" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="17" field="61f2-8534-703c-30b2">
-                  <conditions>
-                    <condition type="atLeast" value="16" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="18" field="61f2-8534-703c-30b2">
-                  <conditions>
-                    <condition type="atLeast" value="17" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="19" field="61f2-8534-703c-30b2">
-                  <conditions>
-                    <condition type="atLeast" value="18" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="20" field="61f2-8534-703c-30b2">
-                  <conditions>
-                    <condition type="atLeast" value="19" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                <modifier type="increment" value="1" field="3bf9-44e6-b7d4-96e9">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="8777-899e-9fb6-0a26" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
                 </modifier>
               </modifiers>
               <comment>Infantry Detachment superior a Medium Vehicles</comment>
@@ -574,7 +489,7 @@
         <selectionEntry type="upgrade" import="true" name="PIAT" hidden="false" id="92d6-5cb5-0a1b-5ae7" collective="false">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d36c-f779-c973-d1e8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="53a1-0341-c805-5039" includeChildSelections="true"/>
+            <constraint type="max" value="0" field="selections" scope="force" shared="true" id="f3ad-1a7b-b2a6-c09a" includeChildSelections="true"/>
           </constraints>
           <costs>
             <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="5"/>
@@ -583,88 +498,13 @@
           <modifierGroups>
             <modifierGroup type="and">
               <modifiers>
-                <modifier type="set" value="1" field="53a1-0341-c805-5039">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="atLeast" value="2" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                        <condition type="atMost" value="3" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="set" value="2" field="53a1-0341-c805-5039">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="atLeast" value="4" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                        <condition type="atMost" value="5" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="set" value="3" field="53a1-0341-c805-5039">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="atLeast" value="6" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                        <condition type="atMost" value="7" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="set" value="4" field="53a1-0341-c805-5039">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="atLeast" value="8" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                        <condition type="atMost" value="9" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="set" value="5" field="53a1-0341-c805-5039">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="atLeast" value="10" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                        <condition type="atMost" value="11" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="set" value="6" field="53a1-0341-c805-5039">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="atLeast" value="12" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                        <condition type="atMost" value="13" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="set" value="7" field="53a1-0341-c805-5039">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="atLeast" value="14" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                        <condition type="atMost" value="15" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier type="set" value="8" field="53a1-0341-c805-5039">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="atLeast" value="16" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                        <condition type="atMost" value="17" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
+                <modifier type="increment" value="1" field="f3ad-1a7b-b2a6-c09a">
+                  <repeats>
+                    <repeat value="2" repeats="1" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
                 </modifier>
               </modifiers>
-              <comment>Maximo la mitad</comment>
+              <comment>Max la mitad</comment>
             </modifierGroup>
           </modifierGroups>
         </selectionEntry>
@@ -678,88 +518,13 @@
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set" value="1" field="503a-1e9f-7bac-06ee">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="2" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                    <condition type="atMost" value="3" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="2" field="503a-1e9f-7bac-06ee">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="4" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                    <condition type="atMost" value="5" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="3" field="503a-1e9f-7bac-06ee">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="6" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                    <condition type="atMost" value="7" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="4" field="503a-1e9f-7bac-06ee">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="8" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                    <condition type="atMost" value="9" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="5" field="503a-1e9f-7bac-06ee">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="10" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                    <condition type="atMost" value="11" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="6" field="503a-1e9f-7bac-06ee">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="12" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                    <condition type="atMost" value="13" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="7" field="503a-1e9f-7bac-06ee">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="14" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                    <condition type="atMost" value="15" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="8" field="503a-1e9f-7bac-06ee">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="atLeast" value="16" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                    <condition type="atMost" value="17" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+            <modifier type="increment" value="1" field="503a-1e9f-7bac-06ee">
+              <repeats>
+                <repeat value="2" repeats="1" field="selections" scope="force" childId="2e14-d886-a525-3e2c" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
             </modifier>
           </modifiers>
-          <comment>Maximo la mitad</comment>
+          <comment>Max la mitad</comment>
         </modifierGroup>
       </modifierGroups>
       <entryLinks>
