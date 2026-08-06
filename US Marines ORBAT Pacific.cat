@@ -343,6 +343,46 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Destacamento de Zapadores" hidden="false" id="d8c4-591b-d66b-7f91" collective="false">
+      <profiles>
+        <profile name="Destacamento de Infanteria" typeId="0706-f1e0-1190-d1b0" typeName="Unidad" hidden="false" id="1c26-c393-e93e-369d">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">n/a</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">3</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">5</characteristic>
+          </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="7" field="1f7c-5fe5-1bf7-9748"/>
+                <modifier type="set" value="Bazooka" field="annotation"/>
+              </modifiers>
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="d8c4-591b-d66b-7f91" childId="5f0a-2689-a776-8d41" shared="true" childName="Bazooka"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Infantry Detachment" hidden="false" id="e344-0294-fddd-aafc" targetId="2e14-d886-a525-3e2c" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="35"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="5"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Armas Anticarro" hidden="false" id="9ddb-a5f4-e9f0-9529" type="selectionEntryGroup" targetId="2d8a-0392-27e6-d1aa"/>
+        <entryLink import="true" name="Transporte" hidden="false" id="1525-fcdb-0f2d-59b7" type="selectionEntryGroup" targetId="ff3e-e776-3049-848b"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Elite" id="3b58-79dc-19ca-0e14" hidden="false" type="rule" targetId="70fe-da32-a25b-9fdf">
+          <modifiers>
+            <modifier type="set" value="Semper Fidelis" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedRules>
     <rule name="Gung-Ho" id="8e5f-d0c8-340d-534b" hidden="false">

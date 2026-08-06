@@ -141,9 +141,6 @@
       <entryLinks>
         <entryLink import="true" name="Transporte" hidden="false" id="6b38-7024-a034-e92e" type="selectionEntryGroup" targetId="855a-4b17-79e4-8e2c"/>
       </entryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Entrenamiento" id="2610-5313-7c85-0d7d" hidden="false"/>
-      </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Banzai!" id="2196-846b-a1e2-4d8b" hidden="false" type="rule" targetId="5a53-07ba-b146-4b27"/>
         <infoLink name="El arte de la Jungla" id="1701-86e8-bfe6-9801" hidden="false" type="rule" targetId="87a5-2084-3a8e-0c8b"/>
@@ -421,6 +418,36 @@
         <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="25"/>
         <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="5"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Destacamento de Infanteria Naval" hidden="false" id="1795-206a-8574-e7d8" collective="false">
+      <profiles>
+        <profile name="Destacamento de Infanteria" typeId="0706-f1e0-1190-d1b0" typeName="Unidad" hidden="false" id="dd40-c2fa-0390-b884">
+          <characteristics>
+            <characteristic name="Blindaje" typeId="1379-f095-3bd4-f79f">n/a</characteristic>
+            <characteristic name="Arma" typeId="1f7c-5fe5-1bf7-9748">3</characteristic>
+            <characteristic name="Moral" typeId="e3e7-d082-7378-75b7">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Infantry Detachment" hidden="false" id="9d55-de4f-d466-4531" targetId="2e14-d886-a525-3e2c" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="d5ae-0f19-95a9-900c" value="35"/>
+        <cost name=" Break Points" typeId="1e4c-5979-a9c1-14de" value="4"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Transporte" hidden="false" id="373d-7a60-70e4-435e" type="selectionEntryGroup" targetId="855a-4b17-79e4-8e2c"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Banzai!" id="d62d-4822-dcdc-e7d2" hidden="false" type="rule" targetId="5a53-07ba-b146-4b27"/>
+        <infoLink name="El arte de la Jungla" id="971a-aa17-abe5-4e4a" hidden="false" type="rule" targetId="87a5-2084-3a8e-0c8b"/>
+        <infoLink name="Elite" id="5b40-0431-5eef-8b73" hidden="false" type="rule" targetId="70fe-da32-a25b-9fdf">
+          <modifiers>
+            <modifier type="set" value="Bushido" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>
